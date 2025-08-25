@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  width: 661px;
+  background-color: #430a5d;
+  border-radius: 28px;
+  padding: 45px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-size: 48px;
+}
+
+.amount_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.amount_box label {
+  font-size: 24px;
+  color: white;
+}
+
+.amount_box input {
+  padding: 10px 12px;
+  font-size: 24px;
+}
+
+.select_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.select_box p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+select {
+  font-size: 24px;
+  padding: 10px 32px;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 16px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #eee4b1;
+  color: #430a5d;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #f0e8c4;
+}
+
+.sum {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  margin-top: 50px;
+}
